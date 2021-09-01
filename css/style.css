@@ -17,7 +17,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 450px;
-  background-image: url(images/images-basquiat/basquiat-wallpaper);
+  background-image: url();
   background-size: cover;
 }
 
@@ -35,13 +35,14 @@ header {
   color: #FFECC3;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 25px;
+  font-family: "Reenie Beanie", cursive;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 /* nombre */
 h1 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Reenie Beanie", cursive;
   font-size: 150px;
   opacity: 1;
   font-weight: 200;
@@ -51,7 +52,7 @@ h1 {
 /* Titulos secciones */
 .title {
   margin-bottom: 40px;
-  font: 60px "Stint Ultra Condensed";
+  font: 60px "Reenie Beanie", cursive;
   text-transform: uppercase;
   background: #CEAB61;
   margin: 0;
@@ -62,6 +63,8 @@ h1 {
 
 p {
   margin-bottom: 40px;
+  font-size: 20px;
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
@@ -87,24 +90,22 @@ p {
   width: 100%;
   justify-content: center;
 }
-
 .flex-container div {
   width: 500px;
   height: 600px;
   margin: 40px;
+}
+.flex-container img p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .imagen-flex {
   width: 100%;
   height: 100%;
   box-shadow: 7px 33px 50px #777777;
-}
-
-.flex-container, img, p {
-  text-align: center;
-  font-size: 15px;
-  font-weight: 600;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* Fin pinturas */
@@ -269,5 +270,29 @@ footer {
 }
 
 /* Fin pie pagina */
+/* Medias queries */
+@media only screen and (max-width: 320px) {
+  .pie-font, .pie-redes {
+    font-size: 20px;
+    width: 50%;
+  }
+
+  .form-contacto, .form-contacto, .form-input {
+    width: 100%;
+  }
+
+  .form-contacto {
+    width: 300px;
+  }
+
+  .texto-basquiat img {
+    width: 50%;
+  }
+
+  .texto-basquiat {
+    width: 80%;
+  }
+}
+/* Fin medias queries */
 
 /*# sourceMappingURL=style.css.map */

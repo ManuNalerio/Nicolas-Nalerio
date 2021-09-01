@@ -1,0 +1,24 @@
+/* Medias queries */
+@media only screen and (max-width:320px) {
+    .pie-font, .pie-redes{
+        font-size: 20px;
+        width: 50%;
+      }
+  
+      .form-contacto, .form-contacto, .form-input{
+        width: 100%;
+      }
+  
+      .form-contacto{
+        width: 300px;
+      }
+  
+      .texto-basquiat img{
+        width: 50%;
+      }
+  
+      .texto-basquiat{
+        width: 80%;
+      }
+  }
+  /* Fin medias queries */
