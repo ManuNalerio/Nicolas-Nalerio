@@ -1,24 +1,34 @@
 /* Medias queries */
 @media only screen and (max-width:320px) {
-    .pie-font, .pie-redes{
-        font-size: 20px;
-        width: 50%;
-      }
-  
-      .form-contacto, .form-contacto, .form-input{
-        width: 100%;
-      }
-  
-      .form-contacto{
-        width: 300px;
-      }
-  
-      .texto-basquiat img{
-        width: 50%;
-      }
-  
-      .texto-basquiat{
-        width: 80%;
-      }
+
+  .navbar{
+    width: 100%;
+    font-size: 10px;
   }
-  /* Fin medias queries */
+
+  .navbar a {
+    font-size: 20px;
+  }
+
+  h2, .title{
+    font-size: 30px;
+  }
+
+  .pie-font, .pie-redes{
+      font-size: 20px;
+      width: 100%;
+    }
+  
+  .form-contacto, .form-input{
+      width: 100%;
+     }
+  
+  .texto-basquiat img{
+    width: 50%;
+    }
+  
+  .texto-basquiat{
+    width: 80%;
+    }
+  }
+/* Fin medias queries */

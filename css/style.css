@@ -1,4 +1,5 @@
 /* Reseteo */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@
 }
 
 body {
-  background-color: #FFECC3;
+  background-color: #faf1dc;
 }
 
 /* Header */
@@ -17,66 +18,73 @@ header {
   justify-content: center;
   align-items: center;
   height: 450px;
-  background-image: url();
-  background-size: cover;
+  background-image: url(../images/images-nico/cara-personas.jpeg);
+  width: 100%;
 }
 
 /* Fin header */
+/* nombre */
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+  width: 100%;
+  color: #000000;
+  text-shadow: 5px 5px 20px white;
+  text-align: center;
+}
+
+/* fin nombre */
 .navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 63px;
-  background: #BF9E58;
-  border-radius: 20px black;
+  display: inline-block;
+  background: #f1d89d;
+  width: 100%;
+  text-align: center;
 }
 .navbar a {
   padding: 0 20px;
-  color: #FFECC3;
+  color: #1a1a1a;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Reenie Beanie", cursive;
   font-size: 30px;
   font-weight: 700;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
 }
 
-/* nombre */
-h1 {
-  font-family: "Reenie Beanie", cursive;
-  font-size: 150px;
-  opacity: 1;
-  font-weight: 200;
-}
-
-/* fin nombre */
 /* Titulos secciones */
 .title {
   margin-bottom: 40px;
   font: 60px "Reenie Beanie", cursive;
   text-transform: uppercase;
-  background: #CEAB61;
+  background: #f1d89d;
   margin: 0;
   border-bottom: solid black 0.5px;
   text-align: center;
-  color: #FFECC3;
+  color: #000000;
+  width: 100%;
 }
 
 p {
   margin-bottom: 40px;
   font-size: 20px;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
 }
 
 .content {
   padding: 80px 0;
+  width: 100%;
 }
 
 /* Fin titulo secciones */
 /* Quien soy */
 .contenido-quien p {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -85,33 +93,33 @@ p {
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  background-color: #FFECC3;
+  background-color: #faf1dc;
   padding: 40px;
   width: 100%;
   justify-content: center;
 }
 .flex-container div {
   width: 500px;
-  height: 600px;
-  margin: 40px;
+  height: 100%;
+  margin: 20px;
 }
 .flex-container img p {
   text-align: center;
   font-size: 15px;
-  font-weight: 600;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
 }
 
 .imagen-flex {
   width: 100%;
-  height: 100%;
   box-shadow: 7px 33px 50px #777777;
 }
 
 /* Fin pinturas */
 /* Inspiracion */
 .contenido-inspiracion {
-  background-color: #FFECC3;
+  background-color: #faf1dc;
+  width: 100%;
 }
 
 .texto-basquiat {
@@ -136,22 +144,15 @@ p {
   width: 100%;
 }
 
-.video {
-  display: flex;
-  width: 50%;
-  margin: 100px auto;
-  box-shadow: 5px 30px 70px #000;
-}
-
 /* Fin seccion inspiracion */
 /* Contato */
 .section-contacto {
-  background-color: #FFECC3;
+  background-color: #faf1dc;
 }
 
 .form-contacto {
   width: 400px;
-  background: whitesmoke;
+  background: #faf1dc;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
@@ -163,12 +164,12 @@ p {
   font-size: 22px;
   margin-bottom: 20px;
   color: #000;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
 }
 
 label {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", sans-serif;
   justify-content: left;
   font-weight: 500;
 }
@@ -179,21 +180,21 @@ label {
   border-radius: 5px;
   margin-bottom: 16px;
   border: 1px solid;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 15px;
-  background: #d6d6d6;
+  background: #cacaca;
 }
 
 .form-buton {
   width: 100%;
-  background: #d6d6d6;
+  background: #cacaca;
   border: 1px solid;
   border-radius: 5px;
   padding: 12px;
   color: black;
   margin: 16px 0;
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
 }
 
@@ -202,7 +203,7 @@ label {
 footer {
   width: 100%;
   padding: 5px 0px;
-  background-color: #BF9E58;
+  background-color: #f1d89d;
 }
 
 .container_footer {
@@ -218,7 +219,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 40px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .box_footer .logo img {
   width: 180px;
@@ -227,19 +228,19 @@ footer {
   max-width: 350px;
   margin-top: 20px;
   font-weight: 500;
-  color: #FFECC3;
+  color: #1a1a1a;
   font-size: 18px;
 }
 .box_footer h2 {
   margin-bottom: 30px;
-  color: #FFECC3;
+  color: #1a1a1a;
 }
 .box_footer a {
   margin-top: 10px;
   font-weight: 600;
   font-size: 20px;
   text-decoration: none;
-  color: #FFECC3;
+  color: #1a1a1a;
 }
 .box_footer a .fab {
   font-size: 20px;
@@ -262,27 +263,36 @@ footer {
 }
 .box_copyright p {
   margin-top: 20px;
-  color: #FFECC3;
+  color: #1a1a1a;
 }
 .box_copyright hr {
   height: 1px;
-  background-color: #FFECC3;
+  background-color: #1a1a1a;
 }
 
 /* Fin pie pagina */
 /* Medias queries */
 @media only screen and (max-width: 320px) {
-  .pie-font, .pie-redes {
-    font-size: 20px;
-    width: 50%;
+  .navbar {
+    width: 100%;
+    font-size: 10px;
   }
 
-  .form-contacto, .form-contacto, .form-input {
+  .navbar a {
+    font-size: 20px;
+  }
+
+  h2, .title {
+    font-size: 30px;
+  }
+
+  .pie-font, .pie-redes {
+    font-size: 20px;
     width: 100%;
   }
 
-  .form-contacto {
-    width: 300px;
+  .form-contacto, .form-input {
+    width: 100%;
   }
 
   .texto-basquiat img {

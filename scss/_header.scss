@@ -4,7 +4,19 @@ header {
     justify-content: center;
     align-items: center;
     height: 450px; 
-    background-image: url();
-    background-size: cover;
+    background-image: url(../images/images-nico/cara-personas.jpeg);
+    width: 100%;
   }
   /* Fin header */
+
+    /* nombre */
+    h1{
+      font-family: 'Nunito', sans-serif;
+      font-size: 100px;
+      font-weight: 800;
+      width: 100%;
+      color: #000000;
+      text-shadow: 5px 5px 20px hsl(0, 100%, 100%);
+      text-align: center;
+    }
+  /* fin nombre */
