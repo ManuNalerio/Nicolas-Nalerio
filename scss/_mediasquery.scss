@@ -1,5 +1,9 @@
 /* Medias queries */
 @media only screen and (max-width:320px) {
+  h1{
+    width: 100%;
+    font-size: 60px;
+  }
 
   .navbar{
     width: 100%;
@@ -7,11 +11,12 @@
   }
 
   .navbar a {
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: normal;
   }
 
   h2, .title{
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .pie-font, .pie-redes{
