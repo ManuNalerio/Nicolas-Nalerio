@@ -14,9 +14,10 @@ header {
       font-family: 'Nunito', sans-serif;
       font-size: 100px;
       font-weight: 800;
-      width: 100%;
-      height: auto;
-      color: #000000;
+      width: 100%;   
+      color: #b4b4b4;
       text-align: center;
+      &:hover{-webkit-transform:scale(1.1);transform:scale(1.1);}
     }
+    
   /* fin nombre */

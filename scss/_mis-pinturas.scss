@@ -2,7 +2,7 @@
 .flex-container{
     display: flex;
     flex-flow: row wrap;
-    background-color: #faf1dc;
+    background-color: #cdcdcd;
     padding: 40px;
     width: 100%;
     justify-content: center;
@@ -20,11 +20,15 @@
         font-weight: 500;
         font-family: 'Nunito', sans-serif;
       }
+      &:hover{-webkit-transform:scale(1.1);transform:scale(1.1);}
     }
   }  
   
   .imagen-flex{
     width: 100%;
-    box-shadow: 7px 33px 50px rgb(119, 119, 119);
+    box-shadow: 7px -20px 50px rgb(119, 119, 119);
+    
   }
+
+ 
   /* Fin pinturas */
