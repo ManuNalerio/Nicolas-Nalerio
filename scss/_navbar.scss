@@ -8,19 +8,22 @@
             color: #1a1a1a; 
             text-decoration: none; 
             text-transform: uppercase; 
-            font-family: 'Reenie Beanie', cursive;
+            font-family: 'Roboto', sans-serif;
             font-size: 30px;
             font-weight: 700;
             width: 100%;
             justify-content: center;
             margin: auto;
+              &:hover{
+                color: #535353;
+              }
     }
   }
   
   /* Titulos secciones */
   .title {
     margin-bottom: 40px; 
-    font: 60px 'Reenie Beanie', cursive;
+    font: 60px 'Roboto', sans-serif;
     text-transform: uppercase;
     background: #b4b4b4;
     margin: 0;
@@ -29,7 +32,7 @@
     color:#000000 ;
     width: 100%;
   }
-  
+
   p {
     margin-bottom: 40px;
     font-size: 20px;

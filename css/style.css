@@ -1,5 +1,5 @@
 /* Reseteo */
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -25,19 +25,52 @@ header {
 /* Fin header */
 /* nombre */
 h1 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 100px;
   font-weight: 800;
   width: 100%;
-  color: #b4b4b4;
+  color: whitesmoke;
   text-align: center;
 }
-h1:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+
+.focus {
+  -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-/* fin nombre */
+@-webkit-keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+/* Fin nombre */
 .navbar {
   display: inline-block;
   background: #b4b4b4;
@@ -49,18 +82,21 @@ h1:hover {
   color: #1a1a1a;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Reenie Beanie", cursive;
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 700;
   width: 100%;
   justify-content: center;
   margin: auto;
 }
+.navbar a:hover {
+  color: #535353;
+}
 
 /* Titulos secciones */
 .title {
   margin-bottom: 40px;
-  font: 60px "Reenie Beanie", cursive;
+  font: 60px "Roboto", sans-serif;
   text-transform: uppercase;
   background: #b4b4b4;
   margin: 0;
@@ -86,9 +122,11 @@ p {
 /* Fin titulo secciones */
 /* Quien soy */
 .contenido-quien p {
-  font-family: "Nunito", sans-serif;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   text-align: center;
+  margin: 20px 20px;
 }
 
 /* Fin quien soy */
@@ -110,11 +148,7 @@ p {
   text-align: center;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Nunito", sans-serif;
-}
-.flex-container img:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  font-family: "Roboto", sans-serif;
 }
 
 .imagen-flex {
@@ -136,11 +170,11 @@ p {
   margin: 10px auto;
   text-align: justify;
   border-radius: 10px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .texto-basquiat img {
-  width: 310px;
+  width: 100%;
   float: left;
   margin-left: 10px;
   margin-top: 10px;
@@ -172,12 +206,12 @@ p {
   font-size: 22px;
   margin-bottom: 20px;
   color: #000;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
 label {
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   justify-content: left;
   font-weight: 500;
 }
@@ -188,7 +222,7 @@ label {
   border-radius: 5px;
   margin-bottom: 16px;
   border: 1px solid;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   background: #cdcdcd;
 }
@@ -202,7 +236,7 @@ label {
   color: black;
   margin: 16px 0;
   font-size: 16px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
@@ -231,6 +265,7 @@ footer {
 }
 .box_footer .logo img {
   width: 180px;
+  margin-left: 100px;
 }
 .box_footer .frase {
   max-width: 350px;
@@ -250,12 +285,8 @@ footer {
   text-decoration: none;
   color: #1a1a1a;
 }
-.box_footer a .fab {
-  font-size: 20px;
-}
 .box_footer a:hover {
-  opacity: 0.2;
-  color: black;
+  color: #535353;
 }
 
 .redes {
@@ -294,6 +325,10 @@ footer {
   .navbar a {
     font-size: 16px;
     font-weight: normal;
+  }
+
+  .contenido-quien p {
+    width: 100%;
   }
 
   h2, .title {
