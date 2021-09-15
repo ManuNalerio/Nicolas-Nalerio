@@ -1,5 +1,5 @@
 /* Medias queries */
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:560px) {
   h1{
     width: 100%;
     font-size: 60px;
@@ -32,10 +32,12 @@
   
   .form-contacto, .form-input{
       width: 100%;
+      margin: 20px auto;
+      background-color: #bebebe;
      }
   
   .texto-basquiat img{
-    width: 50%;
+    width: 100%;
     }
   
   .texto-basquiat{

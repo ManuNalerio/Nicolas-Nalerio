@@ -8,10 +8,6 @@
   vertical-align: baseline;
 }
 
-body {
-  background-color: #cdcdcd;
-}
-
 /* Header */
 header {
   display: flex;
@@ -26,7 +22,7 @@ header {
 /* nombre */
 h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 100px;
+  font-size: 70px;
   font-weight: 800;
   width: 100%;
   color: whitesmoke;
@@ -121,12 +117,12 @@ p {
 
 /* Fin titulo secciones */
 /* Quien soy */
-.contenido-quien p {
+.contenido-quien .nico-text {
   width: 100%;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   text-align: center;
-  margin: 20px 20px;
+  font-size: 20px;
 }
 
 /* Fin quien soy */
@@ -134,7 +130,6 @@ p {
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  background-color: #cdcdcd;
   padding: 40px;
   width: 100%;
   justify-content: center;
@@ -159,7 +154,6 @@ p {
 /* Fin pinturas */
 /* Inspiracion */
 .contenido-inspiracion {
-  background-color: #cdcdcd;
   width: 100%;
 }
 
@@ -175,7 +169,6 @@ p {
 
 .texto-basquiat img {
   width: 100%;
-  float: left;
   margin-left: 10px;
   margin-top: 10px;
   border-radius: 10px;
@@ -188,17 +181,13 @@ p {
 /* Fin seccion inspiracion */
 /* Contato */
 .section-contacto {
-  background-color: #cdcdcd;
   width: 100%;
 }
 
 .form-contacto {
-  width: 400px;
   background: #b4b4b4;
   padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 20px 100px 20px 100px;
   box-shadow: 7px 10px 37px #000;
   border-radius: 10px;
 }
@@ -224,12 +213,10 @@ label {
   border: 1px solid;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  background: #cdcdcd;
 }
 
 .form-buton {
   width: 100%;
-  background: #cdcdcd;
   border: 1px solid;
   border-radius: 5px;
   padding: 12px;
@@ -260,7 +247,6 @@ footer {
 .box_footer {
   display: flex;
   flex-direction: column;
-  padding: 40px;
   font-family: "Nunito", sans-serif;
 }
 .box_footer .logo img {
@@ -311,7 +297,7 @@ footer {
 
 /* Fin pie pagina */
 /* Medias queries */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 560px) {
   h1 {
     width: 100%;
     font-size: 60px;
@@ -342,10 +328,12 @@ footer {
 
   .form-contacto, .form-input {
     width: 100%;
+    margin: 20px auto;
+    background-color: #bebebe;
   }
 
   .texto-basquiat img {
-    width: 50%;
+    width: 100%;
   }
 
   .texto-basquiat {
@@ -353,5 +341,8 @@ footer {
   }
 }
 /* Fin medias queries */
+body, .flex-container, .contenido-inspiracion, .section-contacto, .form-input, .form-buton {
+  background-color: #cdcdcd;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,16 +1,13 @@
   /* Contato */
 .section-contacto{
-  background-color: #cdcdcd;
+  @extend %color-fondo;
   width: 100%;
 }
 
 .form-contacto{
-    width: 400px;
     background: #b4b4b4;
     padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 20px 100px 20px 100px;
     box-shadow: 7px 10px 37px #000;
     border-radius: 10px;
     h2{
@@ -36,12 +33,12 @@
     border: 1px solid;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    background: #cdcdcd;
+    @extend %color-fondo;
   }
   
   .form-buton{
     width: 100%;
-    background: #cdcdcd;
+    @extend %color-fondo;
     border: 1px solid;
     border-radius: 5px;
     padding: 12px;
