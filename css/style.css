@@ -119,11 +119,27 @@ p {
 
 /* Fin titulo secciones */
 /* Quien soy */
-.contenido-quien .nico-text {
+.contenido-quien {
   width: 100%;
+}
+.contenido-quien .nico-text {
+  width: 540px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  text-align: justify;
+  border-radius: 10px;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  text-align: center;
+}
+.contenido-quien .foto-nico {
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.contenido-quien img {
+  width: 300px;
+  margin: 0 auto;
 }
 
 /* Fin quien soy */
@@ -241,6 +257,7 @@ footer {
 }
 
 .container_footer {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
