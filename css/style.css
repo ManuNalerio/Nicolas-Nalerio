@@ -338,6 +338,9 @@ footer {
   .contenido-quien p {
     width: 100%;
   }
+  .contenido-quien .nico-text {
+    width: 100%;
+  }
 
   h2, .title {
     font-size: 20px;
@@ -364,7 +367,7 @@ footer {
 }
 /* Fin medias queries */
 body, .flex-container, .contenido-inspiracion, .section-contacto {
-  background-color: #BDC3C7;
+  background-color: #696d72;
 }
 
 /*# sourceMappingURL=style.css.map */
